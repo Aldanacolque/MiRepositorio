@@ -1,0 +1,15 @@
+body {
+  background-image: url(img/margaritas.jpg);
+}
+
+.conteiner {
+  background-color: whitesmoke;
+  padding: 16px;
+  border-radius: 16px;
+  width: fit-content;
+  margin: 20px 0;
+}
+
+.font-family {
+  font-family: "Kalam", cursive;
+}

@@ -4,60 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desafio 1</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      /*
+      selector {
+        propiedad: valor;
+      }
+       */
+      h1 {
+        background-color: #e1b1bc;
+        padding: 16px;
+        border-radius: 16px;
+        width: fit-content;
+        margin: 20px 0;
+        border: 7px solid white;
+      }
+
+      h2 {
+        background-color: #e1b1bc;
+        padding: 16px;
+        border-radius: 16px;
+        width: fit-content;
+        margin: 20px 0;
+        border: solid white;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Mi perfil personal</h1>
+    <h1 style="color: gray">Mi perfil personal</h1>
     <hr />
 
     <img
-      src="./img practic/WhatsApp Image 2022-10-15 at 5.55.11 PM.jpeg"
+      src="./img/WhatsApp Image 2022-10-15 at 5.55.11 PM.jpeg"
       width="120"
       height="200"
       alt="Yo"
     />
 
-    <h2>Información</h2>
-
-    <ul>
-      <li><b>Nombre:</b> Aldana</li>
-      <li><b>Apellido:</b> Colque</li>
-      <li><b>Edad:</b> 23</li>
-      <li><b>Email:</b> aldiiiedlp@gmail.com</li>
-    </ul>
-
-    <p>
-      Me llamo Aldana,soy de Buenos Aires La Plata,estudio la tecnicatura de
-      programador universitario en la UNLP<br />
-      actualmente trabajo como masajista en una estética de La Plata,me metí en
-      la programación gracias a mi pareja, <br />
-      y la verdad estoy fascinada de aprender más sobre este mundo.
-    </p>
+    <h2 style="color: grey">Información</h2>
+    <div class="conteiner">
+      <div class="font-family">
+        <ul>
+          <li><b>Nombre:</b> Aldana</li>
+          <li><b>Apellido:</b> Colque</li>
+          <li><b>Edad:</b> 23</li>
+          <li><b>Email:</b> aldiiiedlp@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+    <h2 style="color: gray">Sobre mí</h2>
+    <div class="conteiner">
+      <div class="font-family">
+        <p>
+          Me llamo Aldana,soy de Buenos Aires La Plata,estudio la tecnicatura de
+          programador universitario en la UNLP<br />
+          actualmente trabajo como masajista en una estética,me metí en la
+          programación gracias a mi pareja, <br />
+        </p>
+      </div>
+    </div>
     <hr />
     <section>
-      <h2>Contacto</h2>
-      <form>
-        <div>
-          <label for="name">Nombre</label>
-          <input type="text" id="name" placeholder="Ingrese Nombre" />
-        </div>
-        <div>
-          <label for="Apellido">Apellido</label>
-          <input type="text" id="apellido" placeholder="Ingrese Apellido" />
-        </div>
-        <div>
-          <label for="email">Email</label>
-          <input type="email" placeholder="Ingrese email" id="email" />
-        </div>
-        <div>
-          <label for="tel">Telefono</label>
-          <input type="tel" id="tel" />
-        </div>
-        <div>
-          <label for="mensaje">Su mensaje</label>
-          <textarea name="mensaje" id="mensaje" cols="155"></textarea>
-        </div>
-        <input type="submit" value="Enviar" />
-      </form>
+      <h2 style="color: grey">Contacto</h2>
+      <div class="conteiner">
+        <form>
+          <div>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" placeholder="Ingrese Nombre" />
+          </div>
+          <div>
+            <label for="Apellido">Apellido</label>
+            <input type="text" id="apellido" placeholder="Ingrese Apellido" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Ingrese email" id="email" />
+          </div>
+          <div>
+            <label for="tel">Telefono</label>
+            <input type="tel" id="tel" />
+          </div>
+          <div>
+            <label for="mensaje">Su mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="155"></textarea>
+          </div>
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
     </section>
   </body>
 </html>
